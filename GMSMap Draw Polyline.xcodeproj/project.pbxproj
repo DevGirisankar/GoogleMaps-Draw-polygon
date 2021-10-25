@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BA2E0427268C2D00C78837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA2E0327268C2D00C78837 /* AppDelegate.swift */; };
+		18BA2E0827268C2D00C78837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA2E0727268C2D00C78837 /* ViewController.swift */; };
+		18BA2E0B27268C2D00C78837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA2E0927268C2D00C78837 /* Main.storyboard */; };
+		18BA2E0D27268C2E00C78837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BA2E0C27268C2E00C78837 /* Assets.xcassets */; };
+		18BA2E1027268C2E00C78837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA2E0E27268C2E00C78837 /* LaunchScreen.storyboard */; };
+		18BA2E182726BFDF00C78837 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA2E172726BFDF00C78837 /* Extensions.swift */; };
+		5DE0BC695EBE1D51618B449B /* Pods_GMSMap_Draw_Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B2EA9FB8205A7B591F2E5C /* Pods_GMSMap_Draw_Polyline.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18BA2E0027268C2D00C78837 /* GMSMap Draw Polyline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GMSMap Draw Polyline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA2E0327268C2D00C78837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BA2E0727268C2D00C78837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BA2E0A27268C2D00C78837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BA2E0C27268C2E00C78837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BA2E0F27268C2E00C78837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BA2E1127268C2E00C78837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA2E172726BFDF00C78837 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		94B2EA9FB8205A7B591F2E5C /* Pods_GMSMap_Draw_Polyline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMSMap_Draw_Polyline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF784768C23233CBF1F70286 /* Pods-GMSMap Draw Polyline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMSMap Draw Polyline.debug.xcconfig"; path = "Target Support Files/Pods-GMSMap Draw Polyline/Pods-GMSMap Draw Polyline.debug.xcconfig"; sourceTree = "<group>"; };
+		D00FA4CD6628CEDF444E6168 /* Pods-GMSMap Draw Polyline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMSMap Draw Polyline.release.xcconfig"; path = "Target Support Files/Pods-GMSMap Draw Polyline/Pods-GMSMap Draw Polyline.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BA2DFD27268C2D00C78837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0BC695EBE1D51618B449B /* Pods_GMSMap_Draw_Polyline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BA2DF727268C2C00C78837 = {
+			isa = PBXGroup;
+			children = (
+				18BA2E0227268C2D00C78837 /* GMSMap Draw Polyline */,
+				18BA2E0127268C2D00C78837 /* Products */,
+				9CE33E33CE5DE8362B5D1710 /* Pods */,
+				B9D4217852A9BC8DEC8F1086 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18BA2E0127268C2D00C78837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BA2E0027268C2D00C78837 /* GMSMap Draw Polyline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BA2E0227268C2D00C78837 /* GMSMap Draw Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				18BA2E0327268C2D00C78837 /* AppDelegate.swift */,
+				18BA2E0727268C2D00C78837 /* ViewController.swift */,
+				18BA2E172726BFDF00C78837 /* Extensions.swift */,
+				18BA2E0927268C2D00C78837 /* Main.storyboard */,
+				18BA2E0C27268C2E00C78837 /* Assets.xcassets */,
+				18BA2E0E27268C2E00C78837 /* LaunchScreen.storyboard */,
+				18BA2E1127268C2E00C78837 /* Info.plist */,
+			);
+			path = "GMSMap Draw Polyline";
+			sourceTree = "<group>";
+		};
+		9CE33E33CE5DE8362B5D1710 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF784768C23233CBF1F70286 /* Pods-GMSMap Draw Polyline.debug.xcconfig */,
+				D00FA4CD6628CEDF444E6168 /* Pods-GMSMap Draw Polyline.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9D4217852A9BC8DEC8F1086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94B2EA9FB8205A7B591F2E5C /* Pods_GMSMap_Draw_Polyline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BA2DFF27268C2D00C78837 /* GMSMap Draw Polyline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA2E1427268C2E00C78837 /* Build configuration list for PBXNativeTarget "GMSMap Draw Polyline" */;
+			buildPhases = (
+				AC90732921FBDF8A2DA30E10 /* [CP] Check Pods Manifest.lock */,
+				18BA2DFC27268C2D00C78837 /* Sources */,
+				18BA2DFD27268C2D00C78837 /* Frameworks */,
+				18BA2DFE27268C2D00C78837 /* Resources */,
+				94DA8EDCA71F0D82C1946C33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GMSMap Draw Polyline";
+			productName = "GMSMap Draw Polyline";
+			productReference = 18BA2E0027268C2D00C78837 /* GMSMap Draw Polyline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BA2DF827268C2C00C78837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					18BA2DFF27268C2D00C78837 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 18BA2DFB27268C2C00C78837 /* Build configuration list for PBXProject "GMSMap Draw Polyline" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BA2DF727268C2C00C78837;
+			productRefGroup = 18BA2E0127268C2D00C78837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BA2DFF27268C2D00C78837 /* GMSMap Draw Polyline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BA2DFE27268C2D00C78837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA2E1027268C2E00C78837 /* LaunchScreen.storyboard in Resources */,
+				18BA2E0D27268C2E00C78837 /* Assets.xcassets in Resources */,
+				18BA2E0B27268C2D00C78837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94DA8EDCA71F0D82C1946C33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMSMap Draw Polyline/Pods-GMSMap Draw Polyline-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMSMap Draw Polyline/Pods-GMSMap Draw Polyline-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GMSMap Draw Polyline/Pods-GMSMap Draw Polyline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC90732921FBDF8A2DA30E10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMSMap Draw Polyline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BA2DFC27268C2D00C78837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA2E182726BFDF00C78837 /* Extensions.swift in Sources */,
+				18BA2E0827268C2D00C78837 /* ViewController.swift in Sources */,
+				18BA2E0427268C2D00C78837 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18BA2E0927268C2D00C78837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA2E0A27268C2D00C78837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BA2E0E27268C2E00C78837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA2E0F27268C2E00C78837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BA2E1227268C2E00C78837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BA2E1327268C2E00C78837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BA2E1527268C2E00C78837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF784768C23233CBF1F70286 /* Pods-GMSMap Draw Polyline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AU9N7XG22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GMSMap Draw Polyline/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giri.GMSMap-Draw-Polyline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BA2E1627268C2E00C78837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00FA4CD6628CEDF444E6168 /* Pods-GMSMap Draw Polyline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9AU9N7XG22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GMSMap Draw Polyline/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giri.GMSMap-Draw-Polyline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BA2DFB27268C2C00C78837 /* Build configuration list for PBXProject "GMSMap Draw Polyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA2E1227268C2E00C78837 /* Debug */,
+				18BA2E1327268C2E00C78837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA2E1427268C2E00C78837 /* Build configuration list for PBXNativeTarget "GMSMap Draw Polyline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA2E1527268C2E00C78837 /* Debug */,
+				18BA2E1627268C2E00C78837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BA2DF827268C2C00C78837 /* Project object */;
+}
