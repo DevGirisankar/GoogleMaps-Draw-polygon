@@ -10,13 +10,12 @@ import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    let googlemapToken = ""
+    let googlemapToken = "" //"YOUR_API_KEY"
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         GMSServices.provideAPIKey(googlemapToken)
-        //        GMSPlacesClient.provideAPIKey("YOUR_API_KEY")
         return true
     }
     

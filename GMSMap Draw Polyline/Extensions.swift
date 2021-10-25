@@ -36,7 +36,7 @@ extension Array where Element == CGPoint {
         let nr = self.count
         var centerX: CGFloat = 0
         var centerY: CGFloat = 0
-        var area = signedPolygonArea()
+        var area = signedPolygonArea
         for i in 0 ..< nr {
             let j = (i + 1) % nr
             let factor1 = self[i].x * self[j].y - self[j].x * self[i].y
@@ -50,7 +50,7 @@ extension Array where Element == CGPoint {
         let center = CGPoint.init(x: centerX, y: centerY)
         return center
     }
-    func signedPolygonArea() -> CGFloat {
+    var signedPolygonArea : CGFloat {
         let nr = self.count
         var area: CGFloat = 0
         for i in 0 ..< nr {
