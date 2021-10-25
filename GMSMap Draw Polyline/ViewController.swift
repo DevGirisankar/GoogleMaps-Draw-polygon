@@ -33,9 +33,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+//MARK: - button action
     @IBAction func drawAction(_ sender: Any) {
         isDrawing = !isDrawing
     }
+    //MARK:- drawing started
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         swiped = false
         arrayPoints.removeAll()
@@ -74,6 +77,7 @@ class ViewController: UIViewController {
            lastPoint = currentPoint
          }
     }
+    //MARK:- drawing ended
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !swiped {
           // draw a single point
@@ -85,7 +89,7 @@ class ViewController: UIViewController {
         convertPointsToCoordinates()
         isDrawing = false
       }
-
+// MARK:- convert CGPoints to Coordinates
     func convertPointsToCoordinates() {
         polygonRect.removeAllCoordinates()
         guard !arrayPoints.isEmpty else {return}
@@ -95,6 +99,7 @@ class ViewController: UIViewController {
         }
         drawPolygons()
     }
+    //MAR:- draw Polygons
     func drawPolygons() {
         mapView.clear()
         let polygon = GMSPolygon()
@@ -106,6 +111,7 @@ class ViewController: UIViewController {
         polygon.map = mapView
         markCenter()
     }
+    //MAR:- add marker in center 
     func markCenter() {
         let center =  arrayPoints.center
         let coordinate = mapView.projection.coordinate(for: center)
